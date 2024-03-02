@@ -1,0 +1,120 @@
+
+body{
+  margin:0;  
+  padding:0;
+  background-color:black;
+}
+.outer{
+	text-align:center;
+	overflow:hidden;
+}
+.page{
+	position:relative;
+	margin-top:0px;
+	background-color:white;
+	max-width:1200px;
+	width:100%;
+	height:99vh;
+	display:inline-block;
+	opacity:.5;
+	text-align:left;
+	font-family:"Helvetica Neue",sans-serif;
+	color:black;
+	font-size:32px; 
+}
+.outer2{
+   text-align:left;
+   padding:20px;
+   background-color:black;
+}
+.page2{
+   max-width:1200px;
+   height:99vh;
+   display: inline-block;
+   text-align:left;
+   padding:10px;
+   background-color:black;
+   margin-top:10px;
+   width:100%;
+}
+.navbar{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:nowrap;
+	justify-content:space-between;
+	height:40px;
+	align-items:center;
+	background-color:#121212;
+	position:sticky;
+	top:0;
+	z-index:100;
+	opacity:.9;
+}
+.navdesign{
+	background-color:#121212;
+	text-align:center;
+	font-family:"Arial", sans-serif;
+	width:100%;
+	flex-grow:1;
+}
+.logo{
+	background-color:#121212;
+	max-width:100px;
+}
+.logo_img{
+	margin-left:50px;
+}
+.search{
+	background-color:#121212;
+}
+.search_img{
+	margin-right:50px;
+}
+a{
+  color:#E8E8ED;
+  font-size:16px;
+  font-weight:normal;
+  text-decoration: none;
+  margin-right:50px;
+}
+a:hover {
+  color:white;  
+ }
+  a:active {
+  color:#CCC;
+}
+.navhere{
+	color:white;
+}
+.content{
+	background-color:black;
+	text-align:left;
+	padding-left:10px;
+	padding-right:10px;
+	font-family:"Helvetica Neue",sans-serif;
+	color:white;
+	font-size:18px; 
+}
+.tile{
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:500px;
+}
+.tilebg1{
+	background-image:url("img/macbookair.jpg")
+}
+.tilebg2{
+	background-image:url("img/ipadpro.jpg")
+}
+.tilebg3{
+	background-image:url("img/phone15pro.jpg")
+}
+.tilebg4{
+	background-image:url("img/applewatch.jpg")
+}
+.tilebg5{
+	background-image:url("img/applevisionpro.jpg")
+}
+.tilebg6{
+	background-image:url("img/airpodspro.jpg")
+}
