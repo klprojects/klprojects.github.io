@@ -1,0 +1,85 @@
+body{
+  font-family:sans-serif;
+  color:black;
+
+}
+
+.outer{
+  text-align:center;
+}
+
+.page{
+  max-width:1200px;
+  width:100%;
+  display:inline-block;
+}
+
+.layout{
+	width:100%;
+	height:100px;
+	background-color:#f5eaea;
+}
+
+.container1{
+    overflow:hidden;
+    height:250px;
+    margin-bottom:20px;
+	text-align:left;
+  }
+.container2{
+	overflow:hidden;
+    height:100px;
+    margin-bottom:20px;
+	text-align:left;
+}
+.container3{
+    overflow:hidden;
+    height:100px;
+    margin-bottom:20px;
+	text-align:left;
+  }
+.container4{
+    overflow:hidden;
+    height:300px;
+    margin-bottom:20px;
+	text-align:left;
+  }
+
+/*NAVIGATION*/
+.topnav{
+  background-color:#fcfcfd;
+  height:34px;
+  text-align:left;
+  color:#333336;
+}
+
+/* HERO IMAGE */
+.hero_text_headline1{
+	font-weight:bold;
+	font-size:12px;
+	font-family:"Arial", "sans-serif";
+	background-color:white;
+	text-align:left;
+	color:#1d1d1f;
+}
+.hero_text_headline2{
+	font-weight:bold;
+	font-size:12px;
+	font-family:"Arial", "sans-serif";
+	background-color:white;
+	text-align:left;
+	color:#bf4800;
+}
+.hero_text{
+	font-size:24px;
+	text-align:left;
+	color:#1d1d1f;
+}
+
+.image-column {
+    float:left;
+    width:50%;
+    height:100%;
+    box-sizing:border-box;
+    padding:20px;
+  }
