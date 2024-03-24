@@ -1,0 +1,56 @@
+body{
+  font-family:sans-serif;
+  color:black;
+
+}
+
+.outer{
+  text-align:center;
+}
+
+.page{
+
+  max-width:1200px;
+  width:100%;
+  display:inline-block;
+}
+
+.topnav{
+  background-color:#fcfcfd;
+  height:34px;
+  text-align:left;
+  color:#333336;
+}
+
+.layout{
+	width:100%;
+	height:100px;
+	background-color:#f5eaea;
+}
+.container1{
+    overflow:hidden;
+    height:250px;
+    margin-bottom:20px;
+	text-align:left;
+  }
+
+
+
+/* HERO IMAGE */
+.hero_content:hover{
+	animation-fill-mode:forwards;
+	animation-name:change;
+	animation-duration:.5s;
+	animation-timing-function:ease-out;
+}
+@keyframes change{
+	from {transform: scale(1,1)}
+	to {transform: scale(1.5,1.5)}
+}
+.image-column{
+    float:left;
+    width:50%;
+    height:100%;
+    box-sizing:border-box;
+    padding:20px;
+  }
